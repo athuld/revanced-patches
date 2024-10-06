@@ -2258,3 +2258,9 @@ public final class app/revanced/util/resource/StringResource$Companion {
 	public final fun fromNode (Lorg/w3c/dom/Node;)Lapp/revanced/util/resource/StringResource;
 }
 
+public final class src/main/kotlin/app/revanced/patches/googlephotos/misc/branding/CustomBrandingPatch : app/revanced/patcher/patch/ResourcePatch {
+	public static final field INSTANCE Lsrc/main/kotlin/app/revanced/patches/googlephotos/misc/branding/CustomBrandingPatch;
+	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
+	public fun execute (Lapp/revanced/patcher/data/ResourceContext;)V
+}
+
